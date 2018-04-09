@@ -146,7 +146,7 @@ static int Sound(void *data){
 	return 0;
 }
 
-// SDL Plotter Function Deffinitions
+// SDL Plotter Function Definitions
 
 SDL_Plotter::SDL_Plotter(int r, int c, bool WITH_SOUND){
 	row = r;
@@ -297,7 +297,7 @@ void SDL_Plotter::initSound(string sound){
 			param* p = &soundMap[sound];
 			p->name = sound;
 			p->cond = SDL_CreateCond();
-			p->mut = SD-lSDL2_imageL_CreateMutex();
+			p->mut = SDL_CreateMutex();
 
 			p->threadID = SDL_CreateThread( Sound, sound.c_str(), (void*)p );
 	}
