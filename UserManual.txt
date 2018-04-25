@@ -1,0 +1,16 @@
+////////////////Galaga/////////////////
+//////////////For ages 6+//////////////
+How to Play:
+1. Use arrow keys on to move your 
+ship up, down, left, and right.
+2. To shoot use spacebar.
+
+Objective:
+1. Destroy the enemy ships and try 
+to get the highest score.
+2. Avoid enemy ships from colliding 
+and destroying your ship.
+
+
+
+
