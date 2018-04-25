@@ -9,7 +9,6 @@ void drawShip(SDL_Plotter& Screen, int x, int y){
             Screen.plotPixel(x + dx, y+dy,90,60,90);
         }
     }
-
     return;
 }
 
@@ -19,7 +18,6 @@ void eraseShip(SDL_Plotter& Screen, int x, int y){
             Screen.plotPixel(x + dx, y+dy,255,255,255);
         }
     }
-
     return;
 }
 
@@ -27,13 +25,17 @@ void eraseShip(SDL_Plotter& Screen, int x, int y){
 void moveShip(int& x, int& y, int dir){
     switch (dir)
     {
-        case RIGHT: x++;
+        case RIGHT: if(x < 840)
+                        x++;
                     break;
-        case LEFT:  x--;
+        case LEFT:  if(x > 80)
+                        x--;
                     break;
-        case UP:    y--;
+        case UP:    if(y > 40)
+                        y--;
                     break;
-        case DOWN:  y++;
+        case DOWN:  if(y < 940)
+                        y++;
                     break;
     }
 }
