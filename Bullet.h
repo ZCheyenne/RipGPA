@@ -1,3 +1,12 @@
+/*
+* Author: David Park, Isaias Lozano, Cheyenne Zhang, Chengyu Hong
+* Assignment Title:  Galaga
+* Assignment Description: This program mimics the game Galaga.
+* Due Date: 4/25/2018
+* Date Created: 3/25/2018
+* Date Last Modified: 4/25/2018
+ */
+
 #ifndef BULLET_H_INCLUDED
 #define BULLET_H_INCLUDED
 
