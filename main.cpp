@@ -19,6 +19,22 @@ int main(int argc, char* args[])
                 Screen.plotPixel(dx, dy,0,0,0);
             }
         }
+        
+      //STIL TESTING  
+	int count=5; //count value = max enemy number
+        
+	for(int i=0;i<count;i++)
+		{
+			drawEnemy(Screen,x,y);
+			count ++;
+		}
+		
+	Screen.update();
+	eraseEnemy(Screen,x,y);
+	enemyMoving(Screen.getKey());
+	
+//STIL TESTING 
+        
         drawShip(Screen,x,y);
         Screen.update();
         eraseShip(Screen,x,y);
