@@ -1,7 +1,7 @@
 ////////////////Galaga/////////////////
 //////////////For ages 6+//////////////
 How to Play:
-1. Use arrow keys on to move your 
+1. Use arrow keys to move your 
 ship up, down, left, and right.
 2. To shoot use spacebar.
 
