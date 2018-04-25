@@ -1,3 +1,29 @@
+/*
+* Author: David Park, Isaias Lozano, Cheyenne Zhang, Chengyu Hong
+* Assignment Title:  Galaga
+* Assignment Description: This program mimics the game Galaga.
+* Due Date: 4/25/2018
+* Date Created: 3/25/2018
+* Date Last Modified: 4/25/2018
+ */
+
+/*
+ * Data Abstraction:
+ * 		Variable, key, is used to store the key stroke
+ * 		Variable, dir, is used to store the direction of the ship
+ * Input:
+ * 		The user inputs arrow keys and the spacebar to move the ship and
+ *          shoot bullets
+ * Process:
+ * 		The discriminant is calculated, to check if roots will be real
+ * 			If the discriminant is negative, "NO REAL ROOTS" is printed to the screen
+ * 		The roots are calculated,if they exist
+ * Output:
+ * 		A spaceship is outputted to the screen using the SDL_Plotter
+ * Assumptions:
+ * 		It is assumed that the user only wants to move and shoot
+*/
+
 #include <iostream>
 #include <cmath>
 #include <ctime>
